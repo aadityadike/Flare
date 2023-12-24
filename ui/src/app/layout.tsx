@@ -6,7 +6,10 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flare: Streaming Service",
+    icons: {
+        icon: '/FlareLogo.jpg', // /public path
+    },
+  title: "Flare",
   description: "Video streaming service",
 };
 
