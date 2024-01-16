@@ -11,6 +11,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.project
+.classpath
 
 # External tool builders
 .externalToolBuilders/
@@ -243,6 +245,7 @@ yarn-error.log*
 next-env.d.ts
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -262,3 +265,7 @@ next-env.d.ts
 .ionide
 
 # java,nextjs,intellij,visualstudiocode,eclipse
+
+#Firebase
+
+Firebase.json
